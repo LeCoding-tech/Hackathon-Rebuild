@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <title>Rebuild Home pg</title>
-    </head>
-    <body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <title>Rebuild Contact pg</title>
+</head>
+
+<body class="body">
         <header>
             <nav id="navbar">
                 <div class="container">
                     <h1 class="logo">Rebuild</h1>
-                    <container><img id="header-logo" src="https://image.flaticon.com/icons/svg/2634/2634678.svg"alt="hand?"></container>
+                    <container><img id="header-logo" src="https://image.flaticon.com/icons/svg/2634/2634678.svg"
+                            alt="hands"></container>
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="resource.html">Resources</a></li>
@@ -25,10 +29,51 @@
 
         </header>
 
-        <div>
 
+        <article class="contact">
+            <h1 class="contact-title">Contact Us</h1>
+            <p class="contact-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sapiente
+                officiis,
+                qui ducimus vero eaque
+                ratione veritatis? Deleniti debitis possimus error labore quia expedita iste impedit perferendis
+                deserunt?
+                Nihil alias quisquam veniam illum explicabo velit perspiciatis sed tempore blanditiis maiores, aperiam
+                consequuntur saepe porro placeat, suscipit fuga perferendis minus quia.</p>
+        </article>
+
+        <div class="form-box">
+            <form action="/action_page.php" method="get">
+                <div class="left-form">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name"><br><br>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email"><br><br>
+                </div>
+
+                <div class="right-form">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject"><br><br>
+                </div>
+                <div class="bottom-form">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" cols="50" placeholder="Message"></textarea><br><br>
+                    
+                </div>
+                <div id="button">
+                    <button type="button">Submit</button>
+                </div>  
+            </form>
         </div>
-
-    </body>
-
+        <footer id=“footer”>
+            <div class=“socialLinks”>
+              <a href=“https://www.facebook.com” rel=“noopener” target=“_blank” class=“fa fa-facebook”></a>
+              <a href=“https://www.instagram.com/?hl=en” rel=“noopener” target=“_blank” class=“fa fa-instagram”></a>
+              <a href=“https://twitter.com” rel=“noopener” target=“_blank” class=“fa fa-twitter”></a>
+              <input class=“search”  type=“text” placeholder=“Search..“>
+            </div>
+          </footer>
+       
+</body>
 </html>

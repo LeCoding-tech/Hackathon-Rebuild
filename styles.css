@@ -267,3 +267,102 @@
   padding: 20px;
   
 } 
+
+/* Contact page */
+ 
+.contact  { 
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact-title {
+  color: #679868;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.contact-paragraph {
+  color: #282828;
+  margin: 0 150px;
+  font-size: 25px;
+  line-height: 1.5em;
+}
+
+.form-box {
+  background: #cbcbcb;
+  margin: 250px auto;
+  font-size: 20px;
+  width: 80%;
+  border: solid #679868;
+  padding-bottom: 70px;
+}
+
+
+.left-form{
+  display:inline-block;
+  justify-content: left;
+  padding-left: 150px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.left-form input{
+border-radius: 10px;
+height: 30px;
+width: 150px;
+margin-left: 10px;
+display: inline-block;
+}
+
+.right-form {
+  display: inline-block;
+  justify-content: center;
+  float: right;
+  padding-right: 120px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.right-form input {
+  border-radius: 10px;
+  height: 30px;
+  width: 150px;
+  display: inline-block;
+}
+
+.bottom-form {
+  display:flex;
+  justify-content: center;
+}
+
+textarea {
+  width: 60%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+#button {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  float: center;
+}
+
+#footer{
+  display: inline-block;
+  height:75px;
+  width: 100vw;
+  background-color:#cbcbcb;
+  color: black;
+  text-align: center;
+  border-top: 3px solid white;
+  justify-content: stretch;
+}
+#footer .search{
+  float: right;
+}
