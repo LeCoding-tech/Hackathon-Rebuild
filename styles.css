@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
   
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+  }
   .container {
     margin: auto;
     max-width: 1100px;
@@ -58,4 +62,50 @@
     margin-top: 9px;
   }
   
-  
+  /* Testimony */
+  .testimony {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.testimony_background {
+  background: #282828;
+  color: #cbcbcb;
+}
+
+.testimony_background2 {
+  background: #cbcbcb;
+  color: #282828;
+}
+.testimony-text {
+    width: 50%;
+
+}
+.testimony-pic1 {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background: url(https://pbs.twimg.com/media/EN7ArwWWsAEKSNO.jpg) no-repeat center center/cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.testimony-pic2 {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background: url(https://diverseeducation.com/wp-content/uploads/2019/02/Todd-Curtis-L-Headshot-2018-1.jpg) no-repeat center center/cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimony-pic3 {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  background: url(https://www.austintexas.gov/sites/default/files/files/Sustainability/Raasin-headshot.png) no-repeat center center/cover;
+  margin-left: auto;
+  margin-right: auto;
+}
