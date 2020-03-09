@@ -68,3 +68,11 @@
   justify-content: center;
   text-align:center;
   }
+
+  .fa {
+    text-decoration: none;
+  }
+
+  .search {
+    height: 30px;
+  }

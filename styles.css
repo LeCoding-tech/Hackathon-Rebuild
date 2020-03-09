@@ -368,3 +368,11 @@ textarea {
 #footer .search{
   float: right;
 }
+
+.fa {
+  text-decoration: none;
+}
+
+.search {
+  height: 30px;
+}
