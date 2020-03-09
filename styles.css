@@ -232,11 +232,10 @@
 }
  
 #person .person-img {
-  background-image: url("") no-repeat;
+  background: url("https://www.groundlings.com/img/containers/main/headshots/archive/1534173870_Darson%20Navaris-Teacher360x482.jpg/fb52806481a8c5fce4d4e96f2fe3a946.jpg") no-repeat center center/cover;
   width: 300px;
   min-height: 300px;
   float: right;
-  background-color: green;
   border-radius: 50%;
 }
 
