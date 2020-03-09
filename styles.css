@@ -109,3 +109,26 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Resources */
+
+#Resource_content {
+  margin: 0px 100px;
+
+}
+
+.Showcase {
+  background-color: #679868;
+  text-align: center;
+  margin: 50px 0px;
+  padding: 100px; 
+}
+
+.Showcase h1 {
+  margin-bottom: 50px;
+}
+
+.Showcase p{
+  line-height: 1.6;
+}
+
