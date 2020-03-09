@@ -205,9 +205,9 @@
 }
 
 #text .text-img {
-  background-image: url("hands.png") no-repeat;
+  background: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Ff%2Ff8%2F01_Icon-Community%25402x.png") no-repeat;
   width: 50%;
-  min-height: 200px;
+  height: 500px;
   float: left;
 }
 
@@ -374,5 +374,5 @@ textarea {
 }
 
 .search {
-  height: 30px;
+  height: ;
 }
