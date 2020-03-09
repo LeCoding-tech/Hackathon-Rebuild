@@ -1,0 +1,18 @@
+.blackbox{
+    position:relative;
+    background-color: #282828;
+   height:500px;
+    width: 105px;
+    margin-left: -1%;
+    margin-top: 0px;
+    z-index:7;
+  }
+  .Greybox{
+    position:relative;
+    background-color: #cbcbcc;
+   height:500px;
+    width: 105%;
+    margin-left: -1%;
+    margin-top: 200px;
+    z-index:7;
+  }
