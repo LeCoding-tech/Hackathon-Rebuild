@@ -175,7 +175,7 @@
 } 
 
 #home-info .info-content {
-  font-size:50px;
+  font-size:40px;
   font-family:fantasy, Times New Roman, Courier New;
   text-align: center;
   position: absolute;
@@ -184,6 +184,7 @@
   transform: translate(-50%, -130%);
   color: limegreen;
   margin-bottom:50px ;
+  margin-top: 50px;
 }
 
 #text {
