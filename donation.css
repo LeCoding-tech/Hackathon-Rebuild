@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #testbody{
+    height:500px;
+      width:100%;
+      background-size:99.89% 700px;
+    background-image:url(https://i.pinimg.com/736x/77/90/cc/7790ccc06dc3a75bd99dba04bd96d49c.jpg);
+     background-repeat: no-repeat;
+    z-index: 1;
+    margin-left:-.55%;
+    
+  }
+  .gray{
+      background-color: #cbcbcb;
+    height: 400px;
+    width:99%;
+    position: absolute;
+
+  }
+  .paragraph{
+   margin-top: 10%;
+    color:#282822;
+    display:flex;
+    justify-content: center;
+    font-size:50px;
+  }
+  .label{
+    
+    color:#282822;
+    display:flex;
+    justify-content: center;
+    font-size:65px;
+  }
+ 
+  .header{
+      
+      color:white;
+      display:flex;
+        justify-content: center;
+     font-size: 100px;
+     text-align: center;
+
+
+  }
+.button{
+    
+    border:solid 3px #282828;
+    height:100px;
+    width:200px;
+    background-color: #cbcbcb;
+    color:#282822;
+    padding:10%;
+    
+}
+.input{
+    border:none;
+    border-bottom:solid 3px #282828;
+    height:100px;
+    width:200px;
+    background-color: #cbcbcb;
+    margin-bottom: 50px;
+}
+  .donationform{
+    color: #282828;
+    display:flex;
+  justify-content: center;
+  text-align:center;
+  }
