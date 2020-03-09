@@ -1,66 +1,44 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="donation.css">
+    
 </head>
 <body>
+    
     <header>
-        <nav>
-            <ul class="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="resource.html">Resources</a></li>
-                <li><a href="donate.html">Donate</a></li>
-                <li><a href="testimony.html">Testimony</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo">Rebuild</h1>
+                <container><img id="header-logo" src="https://image.flaticon.com/icons/svg/2634/2634678.svg"alt="hand?"></container>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resource.html">Resources</a></li>
+                    <li><a  class="current" href="donate.html">Donate</a></li>
+                    <li><a href="testimony.html">Testimonials</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
         </nav>
+
     </header>
-    <h1>Rebuild Donations</h1>
-    <main>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, quia quisquam consequatur perferendis perspiciatis nulla!</p>
+    <div id="testbody">
+    <h1  class="header">Rebuild Donations</h1>
+    </div>
+    <div class="gray">
+    <main class="donationform">
+        <p class="paragraph"> We are a non-profit oragnization, that uses the funds by putting them into our resources.</p>
         <form>
-            <label for= "donation">Donate Amount</label>
-                <input type="number" id="donation">
+            <label class="label"for= "donation">Donate Amount</label>
+                <input class="input" type="number" id="donation">
+                <btn class="button">Submit</btn>
         </form>
-        <img alt="something">
+        
     </main>
-</body>
-=======
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <title>Rebuild Home pg</title>
-    </head>
-    <body>
-        <header>
-            <nav id="navbar">
-                <div class="container">
-                    <h1 class="logo">Rebuild</h1>
-                    <container><img id="header-logo" src="https://image.flaticon.com/icons/svg/2634/2634678.svg"alt="hand?"></container>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="resource.html">Resources</a></li>
-                        <li><a class="current" href="donate.html">Donate</a></li>
-                        <li><a href="testimony.html">Testimonials</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-            </nav>
-
-        </header>
-
-        <div>
-
-        </div>
-
+</div>
     </body>
-
->>>>>>> 88962051ecf171712dde5fb6150310b060c930b7
+</body>
 </html>
