@@ -110,7 +110,10 @@
   margin-right: auto;
 }
 
-/* Resources */
+/* Resources/Grant changes */
+ span{
+   color:#679868;
+ }
 #Container_R {
   text-align: center;
 
